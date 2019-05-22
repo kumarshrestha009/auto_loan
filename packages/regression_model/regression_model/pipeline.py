@@ -32,7 +32,7 @@ price_pipe = Pipeline(
         #     features.LogTransformer(variables=config.NUMERICALS_LOG_VARS)),
         # ('drop_features',
         #     pp.DropUnecessaryFeatures(variables_to_drop=config.DROP_FEATURES)),
-        ('scaler', MinMaxScaler()),
+        # ('scaler', MinMaxScaler()),
         ('lgbm_model', LGBMRegressor(random_state=0))
     ]
 )
