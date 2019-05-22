@@ -107,6 +107,6 @@ venv.bak/
 .idea/
 
 # pickle files
-*.pkl
+
 
 # datafiles
